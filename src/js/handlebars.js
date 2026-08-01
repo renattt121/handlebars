@@ -1,14 +1,14 @@
 import Handlebars from "handlebars";
 import gameListTemplate from "bundle-text:../temlates/game-list.hbs";
 import studentsListTemplate from "bundle-text:../temlates/students.hbs";
-import countriesListTemplate from "bundle-text:../temlates/countries.hbs"; // Fixed typo
+import countriesListTemplate from "bundle-text:../temlates/countries.hbs";
 
 import { gameList, students, countries } from "./data";
 
 // DOM Elements
 const gameContainer = document.querySelector("[data-game-container]");
 const studentsContainer = document.querySelector("[data-students-container]");
-const countriesContainer = document.querySelector("[data-countries-container]"); // Fixed typo
+const countriesContainer = document.querySelector("[data-countries-container]");
 
 // Register Helpers
 Handlebars.registerHelper("inc", (value) => value + 1);
