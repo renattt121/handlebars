@@ -1,0 +1,42 @@
+<h2 class="countries-title">Країни</h2>
+<ul class="country-list">
+  {{#each this}}
+    <li class="country-item">
+      <article class="country">
+        <div class="country-top">
+          {{#if infected}}
+            <span class="status-infected">Інфікованна</span>
+          {{else}}
+            <span class="status-clean">Чиста</span>
+          {{/if}}
+          <div class="country-photo">
+            <img src="{{flag}}" alt="{{name}}" class="country-img" />
+          </div>
+          <h2 class="country-name">
+            {{name}}
+          </h2>
+        </div>
+        <div class="country-meta">
+          <ul class="country-meta-list">
+            <li class="country-meta-item">
+              <p class="country-capital">Столиця:</p>
+              <p class="country-capital">{{capital}}</p>
+            </li>
+            <li class="country-meta-item">
+              <p class="country-currency">Валюта:</p>
+              <p class="country-currency">{{currency}}</p>
+            </li>
+            <li class="country-meta-item">
+              <p class="country-language">Мова:</p>
+              <p class="country-language">{{language}}</p>
+            </li>
+            <li class="country-meta-item">
+              <p class="country-population">Населення:</p>
+              <p class="country-population">{{population}}</p>
+            </li>
+          </ul>
+        </div>
+      </article>
+    </li>
+  {{/each}}
+</ul>

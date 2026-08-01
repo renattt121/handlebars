@@ -1,0 +1,13 @@
+<h2 class="title"> {{title}}</h2>
+<ul class="students-list">
+  {{#each list}}
+    <li class="student-item">
+      <p> {{inc @index}}. {{name}} - {{age}} років</p>
+      {{#if isSportsman}}
+        <span>Займається спортом</span>
+      {{else}}
+        <span>Не Займається спортом</span>
+      {{/if}}
+    </li>
+  {{/each}}
+</ul>

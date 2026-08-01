@@ -1,0 +1,125 @@
+export const games = {
+  items: [
+    "Starfield",
+    "Baldur's Gate 3",
+    "Cyberpunk 2077: Phantom Liberty",
+    "Hogwarts Legacy",
+    "Alan Wake 2",
+    "Spider-Man 2",
+    "Diablo IV",
+    "Final Fantasy XVI",
+    "Resident Evil 4 Remake",
+    "The Legend of Zelda: Tears of the Kingdom",
+  ],
+};
+
+export const gameList = [
+  "Starfield",
+  "Baldur's Gate 3",
+  "Cyberpunk 2077: Phantom Liberty",
+  "Hogwarts Legacy",
+  "Alan Wake 2",
+  "Spider-Man 2",
+  "Diablo IV",
+  "Final Fantasy XVI",
+  "Resident Evil 4 Remake",
+  "The Legend of Zelda: Tears of the Kingdom",
+];
+
+export const students = {
+  title: "Список студентів",
+  list: [
+    {
+      name: "Bob",
+      age: 16,
+      email: "bob@gmail.com",
+      isSportman: true,
+      hobbies: ["football", "painting"],
+    },
+    {
+      name: "Mark",
+      age: 16,
+      emmail: "mark123@gmail.com",
+      isSportsman: true,
+      hobbies: ["sport", "coding"],
+    },
+    {
+      name: "Alex",
+      age: 17,
+      emmail: "Alex@gmail.com",
+      isSportsman: true,
+      hobbies: ["sport", "painting"],
+    },
+    {
+      name: "Max",
+      age: 17,
+      emmail: "max@gmail.com",
+      isSportsman: true,
+      hobbies: ["sport", "reading"],
+    },
+    {
+      name: "Ralph",
+      age: 17,
+      emmail: "max@gmail.com",
+      isSportsman: false,
+      hobbies: ["coding", "math"],
+    },
+  ],
+};
+
+export const countries = [
+  {
+    name: "Австралія",
+    capital: "Канберра",
+    currency: "Австралійский доллар (AUD)",
+    language: "Англійска",
+    population: 24970200,
+    flag: "https://flagcdn.com/w320/au.png",
+    infected: false,
+  },
+  {
+    name: "Болівія",
+    capital: "Сукре",
+    currency: "Болівіано (BOB)",
+    language: "Іспанська, Кечуа, Амара, Гуарані",
+    population: 10461053,
+    flag: "https://flagcdn.com/w320/bo.png",
+    infected: true,
+  },
+  {
+    name: "Великобританія",
+    capital: "Лондон",
+    currency: "Фунт стерлінгів (GBP)",
+    language: "Английска",
+    population: 63395574,
+    flag: "https://flagcdn.com/w320/gb.png",
+    infected: false,
+  },
+  {
+    name: "Ямайка",
+    capital: "Кінгстон",
+    currency: "Ямайский доллар (JMD)",
+    language: "Англійська",
+    population: 2868380,
+    flag: "https://flagcdn.com/w320/jm.png",
+    infected: false,
+  },
+  {
+    name: "Швеція",
+    capital: "Стокгольм",
+    currency: "Шведська крона (SEK)",
+    language: "Шведська",
+    population: 9723809,
+    flag: "https://flagcdn.com/w320/se.png",
+    infected: true,
+  },
+  {
+    name: "Португалія",
+    capital: "Ліссабон",
+    currency: "Евро (EUR)",
+    language: "Португальска",
+    population: 10799270,
+    flag: "https://flagcdn.com/w320/pt.png",
+    infected: true,
+  },
+];
