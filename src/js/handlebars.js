@@ -13,7 +13,7 @@ const countriesContainer = document.querySelector("[data-countries-container]");
 // Register Helpers
 Handlebars.registerHelper("inc", (value) => value + 1);
 
-// 1. Render Games
+// 1. Render Games          .
 const createGameMarkup = Handlebars.compile(gameListTemplate);
 const gameMarkup = createGameMarkup(gameList);
 gameContainer.insertAdjacentHTML("afterbegin", gameMarkup);
